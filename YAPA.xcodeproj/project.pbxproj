@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126493F02438E44200EB47FC /* YANibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493EF2438E44200EB47FC /* YANibInstantiatable.swift */; };
+		126493F22438E4A000EB47FC /* YABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493F12438E4A000EB47FC /* YABaseViewController.swift */; };
+		126493F42438E8E800EB47FC /* YARegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493F32438E8E800EB47FC /* YARegisterPresenter.swift */; };
+		126493F72438EC5500EB47FC /* YAAuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493F62438EC5500EB47FC /* YAAuthServiceProtocol.swift */; };
+		126493F92438ECC100EB47FC /* YAAuthServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493F82438ECC100EB47FC /* YAAuthServiceStub.swift */; };
+		126493FC2438EE0200EB47FC /* YARegisterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493FB2438EE0200EB47FC /* YARegisterError.swift */; };
+		126493FF2438EF5900EB47FC /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126493FE2438EF5900EB47FC /* String+Additions.swift */; };
+		126494012438F7DB00EB47FC /* YALoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494002438F7DB00EB47FC /* YALoginProtocols.swift */; };
+		126494032438F7E500EB47FC /* YALoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494022438F7E400EB47FC /* YALoginPresenter.swift */; };
+		126494052438F7F400EB47FC /* YALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494042438F7F400EB47FC /* YALoginViewController.swift */; };
+		126494072438F7FD00EB47FC /* YALoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494062438F7FD00EB47FC /* YALoginCoordinator.swift */; };
+		126494092438F80A00EB47FC /* YALoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126494082438F80A00EB47FC /* YALoginViewController.xib */; };
+		1264940B2438F91C00EB47FC /* YALoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264940A2438F91C00EB47FC /* YALoginError.swift */; };
+		126494102439056700EB47FC /* YANavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264940F2439056700EB47FC /* YANavigationProtocol.swift */; };
+		12649412243905C600EB47FC /* UINavigationController+YANavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649411243905C600EB47FC /* UINavigationController+YANavigation.swift */; };
+		12649415243910AD00EB47FC /* YARemindPasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649414243910AD00EB47FC /* YARemindPasswordProtocols.swift */; };
+		12649417243910BC00EB47FC /* YARemindPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649416243910BC00EB47FC /* YARemindPasswordCoordinator.swift */; };
+		12649419243910C900EB47FC /* YARemindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649418243910C900EB47FC /* YARemindPasswordViewController.swift */; };
+		1264941B243910D600EB47FC /* YARemindPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1264941A243910D600EB47FC /* YARemindPasswordViewController.xib */; };
+		1264941D243910E300EB47FC /* YARemindPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264941C243910E300EB47FC /* YARemindPasswordPresenter.swift */; };
+		1264941F2439127400EB47FC /* YAScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264941E2439127400EB47FC /* YAScreen.swift */; };
+		126494222439129100EB47FC /* UIViewController+YAScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494212439129100EB47FC /* UIViewController+YAScreen.swift */; };
+		126494242439179600EB47FC /* YARemindPasswordError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494232439179600EB47FC /* YARemindPasswordError.swift */; };
+		1264942624391CEA00EB47FC /* YAContainerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264942524391CEA00EB47FC /* YAContainerManager.swift */; };
+		1264943024392EC800EB47FC /* YALocalStorageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264942F24392EC800EB47FC /* YALocalStorageServiceProtocol.swift */; };
+		12649432243933A700EB47FC /* YALocalStorageServiceDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649431243933A700EB47FC /* YALocalStorageServiceDefaults.swift */; };
+		12649434243951A200EB47FC /* YALeadTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649433243951A200EB47FC /* YALeadTabBarCoordinator.swift */; };
+		1264943A2439550200EB47FC /* YAAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126494392439550200EB47FC /* YAAuthRouter.swift */; };
+		1264943E24395A9500EB47FC /* YADeveloperTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264943D24395A9500EB47FC /* YADeveloperTabBarCoordinator.swift */; };
+		1264944524396E1800EB47FC /* YASprintSettingsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264944424396E1800EB47FC /* YASprintSettingsProtocols.swift */; };
+		1264944724396E2900EB47FC /* YASprintSettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264944624396E2900EB47FC /* YASprintSettingsCoordinator.swift */; };
+		1264944924396E3700EB47FC /* YASprintSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264944824396E3700EB47FC /* YASprintSettingsViewController.swift */; };
+		1264944B24396E4A00EB47FC /* YASprintSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1264944A24396E4A00EB47FC /* YASprintSettingsViewController.xib */; };
+		1264944D24396E5600EB47FC /* YASprintSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264944C24396E5600EB47FC /* YASprintSettingsPresenter.swift */; };
+		12649450243A0CB800EB47FC /* YAUserDefaultsCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264944F243A0CB800EB47FC /* YAUserDefaultsCustom.swift */; };
+		12649452243A0D7200EB47FC /* YAUserDefaultsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649451243A0D7200EB47FC /* YAUserDefaultsCommon.swift */; };
+		12649454243A0F3000EB47FC /* YASettingsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649453243A0F3000EB47FC /* YASettingsServiceProtocol.swift */; };
+		12649456243A0FC500EB47FC /* YASprintSettingsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649455243A0FC500EB47FC /* YASprintSettingsError.swift */; };
+		12649458243A101F00EB47FC /* YASprintSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649457243A101F00EB47FC /* YASprintSettings.swift */; };
+		1264945B243A109E00EB47FC /* YASprintDurationInWeeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264945A243A109E00EB47FC /* YASprintDurationInWeeks.swift */; };
+		1264945D243A114F00EB47FC /* YASettingsServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264945C243A114F00EB47FC /* YASettingsServiceStub.swift */; };
+		1264945F243A13B000EB47FC /* YAUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264945E243A13B000EB47FC /* YAUserService.swift */; };
+		12649461243A1E2500EB47FC /* YAServiceGatewayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649460243A1E2500EB47FC /* YAServiceGatewayService.swift */; };
+		12649463243A1E4200EB47FC /* YAServiceInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649462243A1E4200EB47FC /* YAServiceInjection.swift */; };
+		12649467243A7DA100EB47FC /* YATaskListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12649466243A7DA100EB47FC /* YATaskListViewController.xib */; };
+		12649469243A7F0E00EB47FC /* YATaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12649468243A7F0E00EB47FC /* YATaskListViewController.swift */; };
+		12817D112438CC28007739D5 /* YAAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D102438CC28007739D5 /* YAAppDelegate.swift */; };
+		12817D132438CC28007739D5 /* YASceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D122438CC28007739D5 /* YASceneDelegate.swift */; };
+		12817D1A2438CC29007739D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12817D192438CC29007739D5 /* Assets.xcassets */; };
+		12817D1D2438CC29007739D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12817D1B2438CC29007739D5 /* LaunchScreen.storyboard */; };
+		12817D282438CC29007739D5 /* YAPATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D272438CC29007739D5 /* YAPATests.swift */; };
+		12817D342438DB11007739D5 /* YARole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D332438DB11007739D5 /* YARole.swift */; };
+		12817D362438DB21007739D5 /* YAPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D352438DB21007739D5 /* YAPerson.swift */; };
+		12817D382438DB2B007739D5 /* YATaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D372438DB2B007739D5 /* YATaskStatus.swift */; };
+		12817D3A2438DB34007739D5 /* YATask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D392438DB34007739D5 /* YATask.swift */; };
+		12817D402438DED9007739D5 /* YARegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D3F2438DED9007739D5 /* YARegisterProtocols.swift */; };
+		12817D422438DFB3007739D5 /* YARegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D412438DFB3007739D5 /* YARegisterCoordinator.swift */; };
+		12817D442438DFF9007739D5 /* YARegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12817D432438DFF9007739D5 /* YARegisterViewController.xib */; };
+		12817D462438E040007739D5 /* YARegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12817D452438E040007739D5 /* YARegisterViewController.swift */; };
+		925D5D08595BAA3D05C314B3 /* Pods_YAPATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B88242A4FBBD8C9BAE1EB55 /* Pods_YAPATests.framework */; };
+		C11BC82A37BC8BDF6F512E37 /* Pods_YAPA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF3E66745C5B73602C8138D /* Pods_YAPA.framework */; };
+		E74A0CB5243CA140002820B1 /* YATaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CB1243CA140002820B1 /* YATaskViewController.swift */; };
+		E74A0CB6243CA140002820B1 /* YATaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CB2243CA140002820B1 /* YATaskView.swift */; };
+		E74A0CB8243CA140002820B1 /* YATaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74A0CB4243CA140002820B1 /* YATaskViewController.xib */; };
+		E74A0CBC243CA1AD002820B1 /* YAViewSpecificController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CBB243CA1AD002820B1 /* YAViewSpecificController.swift */; };
+		E74A0CBE243CA1BE002820B1 /* YATaskProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CBD243CA1BE002820B1 /* YATaskProtocols.swift */; };
+		E74A0CC0243CA593002820B1 /* YATaskCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CBF243CA593002820B1 /* YATaskCoordinator.swift */; };
+		E74A0CC2243CA650002820B1 /* YATaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A0CC1243CA650002820B1 /* YATaskPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12817D242438CC29007739D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12817D052438CC28007739D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12817D0C2438CC28007739D5;
+			remoteInfo = YAPA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126493EF2438E44200EB47FC /* YANibInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANibInstantiatable.swift; sourceTree = "<group>"; };
+		126493F12438E4A000EB47FC /* YABaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YABaseViewController.swift; sourceTree = "<group>"; };
+		126493F32438E8E800EB47FC /* YARegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARegisterPresenter.swift; sourceTree = "<group>"; };
+		126493F62438EC5500EB47FC /* YAAuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAuthServiceProtocol.swift; sourceTree = "<group>"; };
+		126493F82438ECC100EB47FC /* YAAuthServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAuthServiceStub.swift; sourceTree = "<group>"; };
+		126493FB2438EE0200EB47FC /* YARegisterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARegisterError.swift; sourceTree = "<group>"; };
+		126493FE2438EF5900EB47FC /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		126494002438F7DB00EB47FC /* YALoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALoginProtocols.swift; sourceTree = "<group>"; };
+		126494022438F7E400EB47FC /* YALoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALoginPresenter.swift; sourceTree = "<group>"; };
+		126494042438F7F400EB47FC /* YALoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALoginViewController.swift; sourceTree = "<group>"; };
+		126494062438F7FD00EB47FC /* YALoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALoginCoordinator.swift; sourceTree = "<group>"; };
+		126494082438F80A00EB47FC /* YALoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YALoginViewController.xib; sourceTree = "<group>"; };
+		1264940A2438F91C00EB47FC /* YALoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALoginError.swift; sourceTree = "<group>"; };
+		1264940F2439056700EB47FC /* YANavigationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANavigationProtocol.swift; sourceTree = "<group>"; };
+		12649411243905C600EB47FC /* UINavigationController+YANavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+YANavigation.swift"; sourceTree = "<group>"; };
+		12649414243910AD00EB47FC /* YARemindPasswordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARemindPasswordProtocols.swift; sourceTree = "<group>"; };
+		12649416243910BC00EB47FC /* YARemindPasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARemindPasswordCoordinator.swift; sourceTree = "<group>"; };
+		12649418243910C900EB47FC /* YARemindPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARemindPasswordViewController.swift; sourceTree = "<group>"; };
+		1264941A243910D600EB47FC /* YARemindPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YARemindPasswordViewController.xib; sourceTree = "<group>"; };
+		1264941C243910E300EB47FC /* YARemindPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARemindPasswordPresenter.swift; sourceTree = "<group>"; };
+		1264941E2439127400EB47FC /* YAScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAScreen.swift; sourceTree = "<group>"; };
+		126494212439129100EB47FC /* UIViewController+YAScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+YAScreen.swift"; sourceTree = "<group>"; };
+		126494232439179600EB47FC /* YARemindPasswordError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARemindPasswordError.swift; sourceTree = "<group>"; };
+		1264942524391CEA00EB47FC /* YAContainerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAContainerManager.swift; sourceTree = "<group>"; };
+		1264942F24392EC800EB47FC /* YALocalStorageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALocalStorageServiceProtocol.swift; sourceTree = "<group>"; };
+		12649431243933A700EB47FC /* YALocalStorageServiceDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALocalStorageServiceDefaults.swift; sourceTree = "<group>"; };
+		12649433243951A200EB47FC /* YALeadTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YALeadTabBarCoordinator.swift; sourceTree = "<group>"; };
+		126494392439550200EB47FC /* YAAuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAuthRouter.swift; sourceTree = "<group>"; };
+		1264943D24395A9500EB47FC /* YADeveloperTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YADeveloperTabBarCoordinator.swift; sourceTree = "<group>"; };
+		1264944424396E1800EB47FC /* YASprintSettingsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettingsProtocols.swift; sourceTree = "<group>"; };
+		1264944624396E2900EB47FC /* YASprintSettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettingsCoordinator.swift; sourceTree = "<group>"; };
+		1264944824396E3700EB47FC /* YASprintSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettingsViewController.swift; sourceTree = "<group>"; };
+		1264944A24396E4A00EB47FC /* YASprintSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YASprintSettingsViewController.xib; sourceTree = "<group>"; };
+		1264944C24396E5600EB47FC /* YASprintSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettingsPresenter.swift; sourceTree = "<group>"; };
+		1264944F243A0CB800EB47FC /* YAUserDefaultsCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAUserDefaultsCustom.swift; sourceTree = "<group>"; };
+		12649451243A0D7200EB47FC /* YAUserDefaultsCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAUserDefaultsCommon.swift; sourceTree = "<group>"; };
+		12649453243A0F3000EB47FC /* YASettingsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASettingsServiceProtocol.swift; sourceTree = "<group>"; };
+		12649455243A0FC500EB47FC /* YASprintSettingsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettingsError.swift; sourceTree = "<group>"; };
+		12649457243A101F00EB47FC /* YASprintSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintSettings.swift; sourceTree = "<group>"; };
+		1264945A243A109E00EB47FC /* YASprintDurationInWeeks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASprintDurationInWeeks.swift; sourceTree = "<group>"; };
+		1264945C243A114F00EB47FC /* YASettingsServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASettingsServiceStub.swift; sourceTree = "<group>"; };
+		1264945E243A13B000EB47FC /* YAUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAUserService.swift; sourceTree = "<group>"; };
+		12649460243A1E2500EB47FC /* YAServiceGatewayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAServiceGatewayService.swift; sourceTree = "<group>"; };
+		12649462243A1E4200EB47FC /* YAServiceInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAServiceInjection.swift; sourceTree = "<group>"; };
+		12649466243A7DA100EB47FC /* YATaskListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YATaskListViewController.xib; sourceTree = "<group>"; };
+		12649468243A7F0E00EB47FC /* YATaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATaskListViewController.swift; sourceTree = "<group>"; };
+		12817D0D2438CC28007739D5 /* YAPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12817D102438CC28007739D5 /* YAAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAppDelegate.swift; sourceTree = "<group>"; };
+		12817D122438CC28007739D5 /* YASceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASceneDelegate.swift; sourceTree = "<group>"; };
+		12817D192438CC29007739D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12817D1C2438CC29007739D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12817D1E2438CC29007739D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12817D232438CC29007739D5 /* YAPATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAPATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12817D272438CC29007739D5 /* YAPATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPATests.swift; sourceTree = "<group>"; };
+		12817D292438CC29007739D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12817D332438DB11007739D5 /* YARole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARole.swift; sourceTree = "<group>"; };
+		12817D352438DB21007739D5 /* YAPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPerson.swift; sourceTree = "<group>"; };
+		12817D372438DB2B007739D5 /* YATaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATaskStatus.swift; sourceTree = "<group>"; };
+		12817D392438DB34007739D5 /* YATask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATask.swift; sourceTree = "<group>"; };
+		12817D3F2438DED9007739D5 /* YARegisterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARegisterProtocols.swift; sourceTree = "<group>"; };
+		12817D412438DFB3007739D5 /* YARegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARegisterCoordinator.swift; sourceTree = "<group>"; };
+		12817D432438DFF9007739D5 /* YARegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YARegisterViewController.xib; sourceTree = "<group>"; };
+		12817D452438E040007739D5 /* YARegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARegisterViewController.swift; sourceTree = "<group>"; };
+		55DEF0C418B286788FF16630 /* Pods-YAPA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPA.release.xcconfig"; path = "Target Support Files/Pods-YAPA/Pods-YAPA.release.xcconfig"; sourceTree = "<group>"; };
+		7EF3E66745C5B73602C8138D /* Pods_YAPA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAPA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852B883DDA425631C8E2D359 /* Pods-YAPATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPATests.release.xcconfig"; path = "Target Support Files/Pods-YAPATests/Pods-YAPATests.release.xcconfig"; sourceTree = "<group>"; };
+		9B88242A4FBBD8C9BAE1EB55 /* Pods_YAPATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAPATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDB2157D065BB8C249639C7 /* Pods-YAPATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPATests.debug.xcconfig"; path = "Target Support Files/Pods-YAPATests/Pods-YAPATests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74A0CB1243CA140002820B1 /* YATaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YATaskViewController.swift; sourceTree = "<group>"; };
+		E74A0CB2243CA140002820B1 /* YATaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YATaskView.swift; sourceTree = "<group>"; };
+		E74A0CB4243CA140002820B1 /* YATaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YATaskViewController.xib; sourceTree = "<group>"; };
+		E74A0CBB243CA1AD002820B1 /* YAViewSpecificController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAViewSpecificController.swift; sourceTree = "<group>"; };
+		E74A0CBD243CA1BE002820B1 /* YATaskProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATaskProtocols.swift; sourceTree = "<group>"; };
+		E74A0CBF243CA593002820B1 /* YATaskCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATaskCoordinator.swift; sourceTree = "<group>"; };
+		E74A0CC1243CA650002820B1 /* YATaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATaskPresenter.swift; sourceTree = "<group>"; };
+		EF4D3906E272B0D20266F782 /* Pods-YAPA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPA.debug.xcconfig"; path = "Target Support Files/Pods-YAPA/Pods-YAPA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12817D0A2438CC28007739D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11BC82A37BC8BDF6F512E37 /* Pods_YAPA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12817D202438CC29007739D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925D5D08595BAA3D05C314B3 /* Pods_YAPATests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126493EE2438E42200EB47FC /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CBA243CA172002820B1 /* Protocols */,
+				1264944E243A0C7600EB47FC /* PropertyWrappers */,
+				126493F12438E4A000EB47FC /* YABaseViewController.swift */,
+				1264940F2439056700EB47FC /* YANavigationProtocol.swift */,
+				1264941E2439127400EB47FC /* YAScreen.swift */,
+				1264942524391CEA00EB47FC /* YAContainerManager.swift */,
+				126493EF2438E44200EB47FC /* YANibInstantiatable.swift */,
+			);
+			name = Classess;
+			sourceTree = "<group>";
+		};
+		126493F52438EC3B00EB47FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1264942E24392E7200EB47FC /* Concrete */,
+				126493F62438EC5500EB47FC /* YAAuthServiceProtocol.swift */,
+				12649453243A0F3000EB47FC /* YASettingsServiceProtocol.swift */,
+				1264942F24392EC800EB47FC /* YALocalStorageServiceProtocol.swift */,
+				1264945E243A13B000EB47FC /* YAUserService.swift */,
+				12649460243A1E2500EB47FC /* YAServiceGatewayService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		126493FA2438EDF600EB47FC /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				1264940C2438FD4100EB47FC /* Auth */,
+				12649455243A0FC500EB47FC /* YASprintSettingsError.swift */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		126493FD2438EF4E00EB47FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				126493FE2438EF5900EB47FC /* String+Additions.swift */,
+				12649411243905C600EB47FC /* UINavigationController+YANavigation.swift */,
+				126494212439129100EB47FC /* UIViewController+YAScreen.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1264940C2438FD4100EB47FC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				126493FB2438EE0200EB47FC /* YARegisterError.swift */,
+				1264940A2438F91C00EB47FC /* YALoginError.swift */,
+				126494232439179600EB47FC /* YARemindPasswordError.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		1264940D2438FD5200EB47FC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				126494132439107A00EB47FC /* RemindPassword */,
+				12817D3E2438DEB0007739D5 /* Register */,
+				12817D3B2438DE53007739D5 /* Login */,
+				126494392439550200EB47FC /* YAAuthRouter.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		126494132439107A00EB47FC /* RemindPassword */ = {
+			isa = PBXGroup;
+			children = (
+				12649414243910AD00EB47FC /* YARemindPasswordProtocols.swift */,
+				12649416243910BC00EB47FC /* YARemindPasswordCoordinator.swift */,
+				12649418243910C900EB47FC /* YARemindPasswordViewController.swift */,
+				1264941A243910D600EB47FC /* YARemindPasswordViewController.xib */,
+				1264941C243910E300EB47FC /* YARemindPasswordPresenter.swift */,
+			);
+			name = RemindPassword;
+			sourceTree = "<group>";
+		};
+		12649428243927C300EB47FC /* LeadTab */ = {
+			isa = PBXGroup;
+			children = (
+				12649433243951A200EB47FC /* YALeadTabBarCoordinator.swift */,
+			);
+			name = LeadTab;
+			sourceTree = "<group>";
+		};
+		1264942D243929C100EB47FC /* DeveloperTab */ = {
+			isa = PBXGroup;
+			children = (
+				1264943D24395A9500EB47FC /* YADeveloperTabBarCoordinator.swift */,
+			);
+			name = DeveloperTab;
+			sourceTree = "<group>";
+		};
+		1264942E24392E7200EB47FC /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				126493F82438ECC100EB47FC /* YAAuthServiceStub.swift */,
+				12649431243933A700EB47FC /* YALocalStorageServiceDefaults.swift */,
+				1264945C243A114F00EB47FC /* YASettingsServiceStub.swift */,
+			);
+			name = Concrete;
+			sourceTree = "<group>";
+		};
+		1264944124396DDF00EB47FC /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				12649428243927C300EB47FC /* LeadTab */,
+				1264942D243929C100EB47FC /* DeveloperTab */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		1264944224396DEF00EB47FC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1264944324396DFE00EB47FC /* SprintSettings */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		1264944324396DFE00EB47FC /* SprintSettings */ = {
+			isa = PBXGroup;
+			children = (
+				1264944424396E1800EB47FC /* YASprintSettingsProtocols.swift */,
+				1264944624396E2900EB47FC /* YASprintSettingsCoordinator.swift */,
+				1264944824396E3700EB47FC /* YASprintSettingsViewController.swift */,
+				1264944A24396E4A00EB47FC /* YASprintSettingsViewController.xib */,
+				1264944C24396E5600EB47FC /* YASprintSettingsPresenter.swift */,
+			);
+			name = SprintSettings;
+			sourceTree = "<group>";
+		};
+		1264944E243A0C7600EB47FC /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				12649451243A0D7200EB47FC /* YAUserDefaultsCommon.swift */,
+				1264944F243A0CB800EB47FC /* YAUserDefaultsCustom.swift */,
+				12649462243A1E4200EB47FC /* YAServiceInjection.swift */,
+			);
+			name = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		12649459243A109200EB47FC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				12817D332438DB11007739D5 /* YARole.swift */,
+				12817D372438DB2B007739D5 /* YATaskStatus.swift */,
+				1264945A243A109E00EB47FC /* YASprintDurationInWeeks.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		12649464243A7D7000EB47FC /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				12649465243A7D7E00EB47FC /* List */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		12649465243A7D7E00EB47FC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				12649466243A7DA100EB47FC /* YATaskListViewController.xib */,
+				12649468243A7F0E00EB47FC /* YATaskListViewController.swift */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		12817D042438CC28007739D5 = {
+			isa = PBXGroup;
+			children = (
+				12817D0F2438CC28007739D5 /* YAPA */,
+				12817D262438CC29007739D5 /* YAPATests */,
+				12817D0E2438CC28007739D5 /* Products */,
+				A23B8077C362D110E942DF46 /* Pods */,
+				F77667B290489E36C43C7E4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12817D0E2438CC28007739D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12817D0D2438CC28007739D5 /* YAPA.app */,
+				12817D232438CC29007739D5 /* YAPATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12817D0F2438CC28007739D5 /* YAPA */ = {
+			isa = PBXGroup;
+			children = (
+				12817D3C2438DE7A007739D5 /* Modules */,
+				126493EE2438E42200EB47FC /* Classess */,
+				126493F52438EC3B00EB47FC /* Services */,
+				126493FD2438EF4E00EB47FC /* Extensions */,
+				12817D322438DAEF007739D5 /* Model */,
+				126493FA2438EDF600EB47FC /* Errors */,
+				12817D102438CC28007739D5 /* YAAppDelegate.swift */,
+				12817D122438CC28007739D5 /* YASceneDelegate.swift */,
+				12817D3D2438DE8F007739D5 /* Resources */,
+				12817D1E2438CC29007739D5 /* Info.plist */,
+			);
+			path = YAPA;
+			sourceTree = "<group>";
+		};
+		12817D262438CC29007739D5 /* YAPATests */ = {
+			isa = PBXGroup;
+			children = (
+				12817D272438CC29007739D5 /* YAPATests.swift */,
+				12817D292438CC29007739D5 /* Info.plist */,
+			);
+			path = YAPATests;
+			sourceTree = "<group>";
+		};
+		12817D322438DAEF007739D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12649459243A109200EB47FC /* Enums */,
+				12817D352438DB21007739D5 /* YAPerson.swift */,
+				12817D392438DB34007739D5 /* YATask.swift */,
+				12649457243A101F00EB47FC /* YASprintSettings.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12817D3B2438DE53007739D5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				126494002438F7DB00EB47FC /* YALoginProtocols.swift */,
+				126494022438F7E400EB47FC /* YALoginPresenter.swift */,
+				126494042438F7F400EB47FC /* YALoginViewController.swift */,
+				126494062438F7FD00EB47FC /* YALoginCoordinator.swift */,
+				126494082438F80A00EB47FC /* YALoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		12817D3C2438DE7A007739D5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CB0243CA11A002820B1 /* Task */,
+				1264940D2438FD5200EB47FC /* Auth */,
+				1264944124396DDF00EB47FC /* Tabs */,
+				1264944224396DEF00EB47FC /* Settings */,
+				12649464243A7D7000EB47FC /* Tasks */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		12817D3D2438DE8F007739D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12817D192438CC29007739D5 /* Assets.xcassets */,
+				12817D1B2438CC29007739D5 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		12817D3E2438DEB0007739D5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				12817D3F2438DED9007739D5 /* YARegisterProtocols.swift */,
+				12817D412438DFB3007739D5 /* YARegisterCoordinator.swift */,
+				12817D432438DFF9007739D5 /* YARegisterViewController.xib */,
+				12817D452438E040007739D5 /* YARegisterViewController.swift */,
+				126493F32438E8E800EB47FC /* YARegisterPresenter.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		A23B8077C362D110E942DF46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D3906E272B0D20266F782 /* Pods-YAPA.debug.xcconfig */,
+				55DEF0C418B286788FF16630 /* Pods-YAPA.release.xcconfig */,
+				9DDB2157D065BB8C249639C7 /* Pods-YAPATests.debug.xcconfig */,
+				852B883DDA425631C8E2D359 /* Pods-YAPATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E74A0CB0243CA11A002820B1 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CC6243CA7C1002820B1 /* Protocols */,
+				E74A0CC5243CA7BA002820B1 /* Coordinator */,
+				E74A0CC4243CA7B1002820B1 /* Presenter */,
+				E74A0CC3243CA7A7002820B1 /* View */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		E74A0CBA243CA172002820B1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CBB243CA1AD002820B1 /* YAViewSpecificController.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E74A0CC3243CA7A7002820B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CB2243CA140002820B1 /* YATaskView.swift */,
+				E74A0CB1243CA140002820B1 /* YATaskViewController.swift */,
+				E74A0CB4243CA140002820B1 /* YATaskViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E74A0CC4243CA7B1002820B1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CC1243CA650002820B1 /* YATaskPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		E74A0CC5243CA7BA002820B1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CBF243CA593002820B1 /* YATaskCoordinator.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		E74A0CC6243CA7C1002820B1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E74A0CBD243CA1BE002820B1 /* YATaskProtocols.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		F77667B290489E36C43C7E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF3E66745C5B73602C8138D /* Pods_YAPA.framework */,
+				9B88242A4FBBD8C9BAE1EB55 /* Pods_YAPATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12817D0C2438CC28007739D5 /* YAPA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12817D2C2438CC29007739D5 /* Build configuration list for PBXNativeTarget "YAPA" */;
+			buildPhases = (
+				655CBD35A6C9B6DC5DB67D39 /* [CP] Check Pods Manifest.lock */,
+				12817D092438CC28007739D5 /* Sources */,
+				12817D0A2438CC28007739D5 /* Frameworks */,
+				12817D0B2438CC28007739D5 /* Resources */,
+				59B9D7D943592A3E3384557B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAPA;
+			productName = YAPA;
+			productReference = 12817D0D2438CC28007739D5 /* YAPA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12817D222438CC29007739D5 /* YAPATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12817D2F2438CC29007739D5 /* Build configuration list for PBXNativeTarget "YAPATests" */;
+			buildPhases = (
+				729A767A4DDEE8A214FE1A05 /* [CP] Check Pods Manifest.lock */,
+				12817D1F2438CC29007739D5 /* Sources */,
+				12817D202438CC29007739D5 /* Frameworks */,
+				12817D212438CC29007739D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12817D252438CC29007739D5 /* PBXTargetDependency */,
+			);
+			name = YAPATests;
+			productName = YAPATests;
+			productReference = 12817D232438CC29007739D5 /* YAPATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12817D052438CC28007739D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dmitry Sagaev";
+				TargetAttributes = {
+					12817D0C2438CC28007739D5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					12817D222438CC29007739D5 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 12817D0C2438CC28007739D5;
+					};
+				};
+			};
+			buildConfigurationList = 12817D082438CC28007739D5 /* Build configuration list for PBXProject "YAPA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12817D042438CC28007739D5;
+			productRefGroup = 12817D0E2438CC28007739D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12817D0C2438CC28007739D5 /* YAPA */,
+				12817D222438CC29007739D5 /* YAPATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12817D0B2438CC28007739D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126494092438F80A00EB47FC /* YALoginViewController.xib in Resources */,
+				12817D1D2438CC29007739D5 /* LaunchScreen.storyboard in Resources */,
+				12649467243A7DA100EB47FC /* YATaskListViewController.xib in Resources */,
+				12817D1A2438CC29007739D5 /* Assets.xcassets in Resources */,
+				E74A0CB8243CA140002820B1 /* YATaskViewController.xib in Resources */,
+				12817D442438DFF9007739D5 /* YARegisterViewController.xib in Resources */,
+				1264941B243910D600EB47FC /* YARemindPasswordViewController.xib in Resources */,
+				1264944B24396E4A00EB47FC /* YASprintSettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12817D212438CC29007739D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59B9D7D943592A3E3384557B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YAPA/Pods-YAPA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YAPA/Pods-YAPA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YAPA/Pods-YAPA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655CBD35A6C9B6DC5DB67D39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YAPA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729A767A4DDEE8A214FE1A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YAPATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12817D092438CC28007739D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74A0CBC243CA1AD002820B1 /* YAViewSpecificController.swift in Sources */,
+				12817D402438DED9007739D5 /* YARegisterProtocols.swift in Sources */,
+				1264945D243A114F00EB47FC /* YASettingsServiceStub.swift in Sources */,
+				1264945F243A13B000EB47FC /* YAUserService.swift in Sources */,
+				E74A0CB6243CA140002820B1 /* YATaskView.swift in Sources */,
+				126494012438F7DB00EB47FC /* YALoginProtocols.swift in Sources */,
+				1264941D243910E300EB47FC /* YARemindPasswordPresenter.swift in Sources */,
+				12817D382438DB2B007739D5 /* YATaskStatus.swift in Sources */,
+				12649461243A1E2500EB47FC /* YAServiceGatewayService.swift in Sources */,
+				12649415243910AD00EB47FC /* YARemindPasswordProtocols.swift in Sources */,
+				1264944724396E2900EB47FC /* YASprintSettingsCoordinator.swift in Sources */,
+				126493FF2438EF5900EB47FC /* String+Additions.swift in Sources */,
+				E74A0CB5243CA140002820B1 /* YATaskViewController.swift in Sources */,
+				12649412243905C600EB47FC /* UINavigationController+YANavigation.swift in Sources */,
+				E74A0CBE243CA1BE002820B1 /* YATaskProtocols.swift in Sources */,
+				126494222439129100EB47FC /* UIViewController+YAScreen.swift in Sources */,
+				126493FC2438EE0200EB47FC /* YARegisterError.swift in Sources */,
+				12649434243951A200EB47FC /* YALeadTabBarCoordinator.swift in Sources */,
+				12649450243A0CB800EB47FC /* YAUserDefaultsCustom.swift in Sources */,
+				126493F92438ECC100EB47FC /* YAAuthServiceStub.swift in Sources */,
+				12649452243A0D7200EB47FC /* YAUserDefaultsCommon.swift in Sources */,
+				1264943024392EC800EB47FC /* YALocalStorageServiceProtocol.swift in Sources */,
+				1264943E24395A9500EB47FC /* YADeveloperTabBarCoordinator.swift in Sources */,
+				12649432243933A700EB47FC /* YALocalStorageServiceDefaults.swift in Sources */,
+				E74A0CC0243CA593002820B1 /* YATaskCoordinator.swift in Sources */,
+				1264940B2438F91C00EB47FC /* YALoginError.swift in Sources */,
+				126494072438F7FD00EB47FC /* YALoginCoordinator.swift in Sources */,
+				12817D3A2438DB34007739D5 /* YATask.swift in Sources */,
+				126493F72438EC5500EB47FC /* YAAuthServiceProtocol.swift in Sources */,
+				E74A0CC2243CA650002820B1 /* YATaskPresenter.swift in Sources */,
+				12649454243A0F3000EB47FC /* YASettingsServiceProtocol.swift in Sources */,
+				12817D112438CC28007739D5 /* YAAppDelegate.swift in Sources */,
+				1264942624391CEA00EB47FC /* YAContainerManager.swift in Sources */,
+				126494242439179600EB47FC /* YARemindPasswordError.swift in Sources */,
+				12817D132438CC28007739D5 /* YASceneDelegate.swift in Sources */,
+				126494032438F7E500EB47FC /* YALoginPresenter.swift in Sources */,
+				126494102439056700EB47FC /* YANavigationProtocol.swift in Sources */,
+				126493F02438E44200EB47FC /* YANibInstantiatable.swift in Sources */,
+				1264944924396E3700EB47FC /* YASprintSettingsViewController.swift in Sources */,
+				12649469243A7F0E00EB47FC /* YATaskListViewController.swift in Sources */,
+				12817D422438DFB3007739D5 /* YARegisterCoordinator.swift in Sources */,
+				126493F42438E8E800EB47FC /* YARegisterPresenter.swift in Sources */,
+				12817D462438E040007739D5 /* YARegisterViewController.swift in Sources */,
+				12649417243910BC00EB47FC /* YARemindPasswordCoordinator.swift in Sources */,
+				126494052438F7F400EB47FC /* YALoginViewController.swift in Sources */,
+				1264941F2439127400EB47FC /* YAScreen.swift in Sources */,
+				1264944524396E1800EB47FC /* YASprintSettingsProtocols.swift in Sources */,
+				12649419243910C900EB47FC /* YARemindPasswordViewController.swift in Sources */,
+				126493F22438E4A000EB47FC /* YABaseViewController.swift in Sources */,
+				12649456243A0FC500EB47FC /* YASprintSettingsError.swift in Sources */,
+				1264945B243A109E00EB47FC /* YASprintDurationInWeeks.swift in Sources */,
+				12817D362438DB21007739D5 /* YAPerson.swift in Sources */,
+				12649463243A1E4200EB47FC /* YAServiceInjection.swift in Sources */,
+				12649458243A101F00EB47FC /* YASprintSettings.swift in Sources */,
+				1264944D24396E5600EB47FC /* YASprintSettingsPresenter.swift in Sources */,
+				1264943A2439550200EB47FC /* YAAuthRouter.swift in Sources */,
+				12817D342438DB11007739D5 /* YARole.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12817D1F2438CC29007739D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12817D282438CC29007739D5 /* YAPATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12817D252438CC29007739D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12817D0C2438CC28007739D5 /* YAPA */;
+			targetProxy = 12817D242438CC29007739D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12817D1B2438CC29007739D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12817D1C2438CC29007739D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12817D2A2438CC29007739D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12817D2B2438CC29007739D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12817D2D2438CC29007739D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4D3906E272B0D20266F782 /* Pods-YAPA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4358N6P4M;
+				INFOPLIST_FILE = YAPA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = SOLID.YAPA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12817D2E2438CC29007739D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DEF0C418B286788FF16630 /* Pods-YAPA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4358N6P4M;
+				INFOPLIST_FILE = YAPA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SOLID.YAPA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12817D302438CC29007739D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDB2157D065BB8C249639C7 /* Pods-YAPATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4358N6P4M;
+				INFOPLIST_FILE = YAPATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SOLID.YAPATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAPA.app/YAPA";
+			};
+			name = Debug;
+		};
+		12817D312438CC29007739D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852B883DDA425631C8E2D359 /* Pods-YAPATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4358N6P4M;
+				INFOPLIST_FILE = YAPATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SOLID.YAPATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAPA.app/YAPA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12817D082438CC28007739D5 /* Build configuration list for PBXProject "YAPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12817D2A2438CC29007739D5 /* Debug */,
+				12817D2B2438CC29007739D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12817D2C2438CC29007739D5 /* Build configuration list for PBXNativeTarget "YAPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12817D2D2438CC29007739D5 /* Debug */,
+				12817D2E2438CC29007739D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12817D2F2438CC29007739D5 /* Build configuration list for PBXNativeTarget "YAPATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12817D302438CC29007739D5 /* Debug */,
+				12817D312438CC29007739D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12817D052438CC28007739D5 /* Project object */;
+}

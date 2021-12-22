@@ -1,0 +1,6 @@
+framework module Pods_YAPA {
+  umbrella header "Pods-YAPA-umbrella.h"
+
+  export *
+  module * { export * }
+}

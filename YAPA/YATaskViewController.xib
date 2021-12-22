@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YATaskViewController" customModule="YAPA" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="YATaskView" customModule="YAPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="KE8-Nn-g2W">
+                    <rect key="frame" x="9" y="44" width="397" height="280"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9t-D5-WwW">
+                            <rect key="frame" x="0.0" y="0.0" width="397" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assigned to:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEz-WI-uh0">
+                            <rect key="frame" x="0.0" y="86.5" width="397" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfK-TQ-ZNy">
+                            <rect key="frame" x="0.0" y="173" width="397" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0V-3w-CQo">
+                            <rect key="frame" x="0.0" y="259.5" width="397" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Task text" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kug-xr-ILi">
+                    <rect key="frame" x="20" y="332" width="378" height="514"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Kug-xr-ILi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="4Fq-pc-sPK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kug-xr-ILi" secondAttribute="trailing" constant="16" id="UuO-Lf-fTq"/>
+                <constraint firstItem="KE8-Nn-g2W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="9" id="ZBO-Tq-KFo"/>
+                <constraint firstItem="Kug-xr-ILi" firstAttribute="top" secondItem="KE8-Nn-g2W" secondAttribute="bottom" constant="8" id="ixr-Q5-TTj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kug-xr-ILi" secondAttribute="bottom" constant="16" id="mo7-D5-VNR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KE8-Nn-g2W" secondAttribute="trailing" constant="8" id="rCR-2a-VXc"/>
+                <constraint firstItem="KE8-Nn-g2W" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tj6-dw-Nwy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="assignedToLabel" destination="dEz-WI-uh0" id="6if-Oa-jOY"/>
+                <outlet property="createdByLabel" destination="d9t-D5-WwW" id="T2m-gN-Z2e"/>
+                <outlet property="dateLabel" destination="CfK-TQ-ZNy" id="EZG-Lv-Iad"/>
+                <outlet property="statusLabel" destination="V0V-3w-CQo" id="dkb-jn-GhY"/>
+                <outlet property="taskTextField" destination="Kug-xr-ILi" id="HSK-oD-miK"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </view>
+    </objects>
+</document>
